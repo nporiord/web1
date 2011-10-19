@@ -1,0 +1,10 @@
+git clone https://github.com/nporiord/web1
+cp -r web1 fightGym
+cd fightGym
+git branch fightGym
+git checkout fightGym
+git add .
+git commit
+git push origin fightGym
+heroku create teknorfightgym
+git push heroku fightGym:master
