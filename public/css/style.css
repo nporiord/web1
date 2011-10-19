@@ -1,0 +1,99 @@
+@font-face {
+	font-family:Corbel;
+	src:url(fonts/corbel.ttf);
+}
+@font-face {
+	font-family:Corbel;
+	font-weight:bold;
+	src:url(fonts/corbelb.ttf);
+}
+@font-face {
+	font-family:Corbel;
+	src:url(fonts/corbel.eot);
+}
+@font-face {
+	font-family:Corbel;
+	font-weight:bold;
+	src:url(fonts/corbelb.eot);
+}
+body{
+	padding:0;
+	margin:0;
+	font-family:Corbel;
+}
+#container {
+	width:100%;
+	padding:10px;
+	background:url(img/bg.png) repeat-x ;
+	background-position:left bottom;
+}
+#footer{
+	width:100%;
+	margin:10px 0 0;
+	padding:0;
+	height:60px;
+	background:#666;
+	color:white;
+	border:1px solid #efefef;
+	border-radius:5px 5px 0 0;
+	font-size:36px;
+	display:block;
+	overflow:hidden;
+}
+#foot-inner{
+	padding:10px;
+}
+#footer a {
+	float:right;
+	margin-left:5px;
+	margin-top:2px;
+	outline:none;
+}
+#footer a img {
+	border:none;
+}
+.panel {
+	width:100%;
+	background:#d1d1d1;
+	
+	margin-top:5px;
+	border:1px solid #efefef;
+	overflow:hidden;
+	background:url(img/btnbg.png) repeat-x top #ececec;
+	border-radius:8px;
+	display:block;
+	height:70px;
+}
+.panel .title {
+	width:100%;
+	font-size:44px;
+	padding:5px;
+	color:#666666;
+	font-weight:bold;
+}
+.panel .title a {
+	text-decoration:none;
+	color:#666666;
+	outline:none;
+	display:block;
+	width:100%;
+}
+.panel .title a:visited {
+	text-decoration:none;
+	color:#666666;
+}
+.panel .title:active{
+	font-size:44px;
+}
+.panel .title:focus{
+	font-size:44px;
+}
+
+.panel .content {
+	display:none;
+	padding:5px 8px;
+	color:#515151;
+	font-size:36px;
+	width:100%;
+	text-align:left;
+}

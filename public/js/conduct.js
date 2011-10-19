@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var footer=false;
 	$.ajax({
         type: "GET",
-		url: "settings.xml",
+		url: "settings/settings.xml",
 		dataType: "xml",
 		success: function(xml) {
 			$("image",xml).each(function(){
