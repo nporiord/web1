@@ -7,4 +7,4 @@ use Rack::Static,
 		"/resources/js",
 		"/teknor",
 		"/fightGym"], 
-	:root => "public"
+	:root => "public";
