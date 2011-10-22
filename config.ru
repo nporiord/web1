@@ -1,1 +1,10 @@
-use Rack::Static, :urls => ["/resources","/teknor","/fightGym"], :root => "public"
+use Rack::Static, 
+	:urls => [
+		"/resources",
+		"/resources/css",
+		"/resources/fonts",
+		"/resources/img",
+		"/resources/js",
+		"/teknor",
+		"/fightGym"], 
+	:root => "public"
