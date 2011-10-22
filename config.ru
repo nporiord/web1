@@ -1,10 +1,8 @@
 use Rack::Static, 
   :urls => [
-  			"/stylesheets",
-  			"/css",
-  			"/img",
-  			"/js", 
-  			"/settings"
+  			"/resources",
+  			"/teknor",
+  			"/fightGym"
   			],
   :root => "public"
 
