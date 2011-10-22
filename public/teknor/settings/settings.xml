@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<app title="Teknor Pty. Ltd.">
+	<style titles="#666" texts="#515151" />
+	
+	<image location="img/header.jpg" stretch="true" />
+	
+	<panel title="Home" opened="false">
+		<![CDATA[
+			We specalise in mobile static sites.
+		]]>
+	</panel>
+	<panel title="About Us">
+		<![CDATA[
+			We started recently, but that doesn't mean we don't know what we are doing.
+		]]>
+	</panel>
+	<footer>
+		<text><![CDATA[
+			© Teknor Pty. Ltd. 
+		]]></text>
+		<facebook link="" />
+		<twitter link="" />
+	</footer>
+</app>
