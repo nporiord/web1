@@ -27,7 +27,7 @@ $(document).ready(function(){
 					if(panel.attr('opened')=='true'){
 						$(this).parent().addClass('opened')
 						$(this).css('display','block')
-						$(this).parent().css('height',70+$(this).height());
+						$(this).parent().css('height',40+$(this).height());
 					}
 					if(panel.attr('color')!=""){
 						$(this).prev().find("a").css('color',panel.attr('color'));
@@ -44,13 +44,13 @@ $(document).ready(function(){
 				//$(this).parent().corner("round all 5px");
 				$(this).click(function(e){
 				e.preventDefault();
-				if($(this).parent().parent().height()>70){
-					$(this).parent().parent().animate({height:70},400).removeClass('opened')
+				if($(this).parent().parent().height()>40){
+					$(this).parent().parent().animate({height:40},400).removeClass('opened')
 				}
 				else {
 					//expand
 					$(this).parent().next().css('display','block')
-					$(".opened").animate({height:70},400).removeClass('opened')
+					$(".opened").animate({height:40},400).removeClass('opened')
 					$(this).parent().parent().animate({ height: $(this).parent().next().height()+ 80},400 ).addClass('opened')
 				}
 			})});
