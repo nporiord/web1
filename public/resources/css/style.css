@@ -24,7 +24,7 @@ body{
 #container {
 	width:100%;
 	padding:10px;
-	background:url(img/bg.png) repeat-x ;
+	background:url(../img/bg.png) repeat-x ;
 	background-position:left bottom;
 }
 #footer{
@@ -59,7 +59,7 @@ body{
 	margin-top:5px;
 	border:1px solid #efefef;
 	overflow:hidden;
-	background:url(img/btnbg.png) repeat-x top #ececec;
+	background:url(../img/btnbg.png) repeat-x top #ececec;
 	border-radius:8px;
 	display:block;
 	height:40px;
@@ -67,8 +67,9 @@ body{
 .panel .title {
 	width:100%;
 	font-size:26px;
-	padding:5px;
+	padding:2px;
 	color:#666666;
+	background:url(../img/arrow-down.png) no-repeat right;
 	font-weight:bold;
 }
 .panel .title a {

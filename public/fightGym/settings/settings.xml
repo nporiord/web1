@@ -114,7 +114,9 @@
 		<text><![CDATA[
 			© Fight Gym 1994 - 2011
 		]]></text>
-		<facebook link="" />
-		<twitter link="" />
+		<phone link="+61292998080"/>
+		<map link="301+Kent+Street,+Sydney,+NSW+2000"/>
+		<facebook link=""/>
+		<twitter link=""/>
 	</footer>
 </app>

@@ -26,6 +26,7 @@ $(document).ready(function(){
 				$(".panel:last .content").each(function(){
 					if(panel.attr('opened')=='true'){
 						$(this).parent().addClass('opened')
+						$(this).prev().css('background-image','url(../resources/img/arrow-up.png)')
 						$(this).css('display','block')
 						$(this).parent().css('height',40+$(this).height());
 					}
@@ -41,16 +42,22 @@ $(document).ready(function(){
 				})
 			});
 			$('.panel .title a',body).each(function(){
-				//$(this).parent().corner("round all 5px");
 				$(this).click(function(e){
 				e.preventDefault();
 				if($(this).parent().parent().height()>40){
 					$(this).parent().parent().animate({height:40},400).removeClass('opened')
+					$(this).parent().css('background-image','url(../resources/img/arrow-down.png)');
 				}
 				else {
 					//expand
 					$(this).parent().next().css('display','block')
-					$(".opened").animate({height:40},400).removeClass('opened')
+					$(this).parent().css('background-image','url(../resources/img/arrow-up.png)');
+					$(".opened").each(function(){
+						$(this).animate({height:40},400);
+						$('.title',$(this)).css('background-image','url(../resources/img/arrow-down.png)');
+						$(this).removeClass('opened')
+					});
+						
 					$(this).parent().parent().animate({ height: $(this).parent().next().height()+ 80},400 ).addClass('opened')
 				}
 			})});
@@ -61,6 +68,8 @@ $(document).ready(function(){
 				if($('text',this).length>0)footerhtml+='<span>'+$('text',this).text()+'</span>';
 				if($('facebook',this).length>0)footerhtml+='<a href="'+$('facebook',this).attr('link')+'"><img src="../resources/img/facebook.gif"></a>';
 				if($('twitter',this).length>0)footerhtml+='<a href="'+$('twitter',this).attr('link')+'"><img src="../resources/img/twitter.png"></a>';
+				if($('phone',this).length>0)footerhtml+='<a href=\"tel:'+$('phone',this).attr('link')+'\""><img src="../resources/img/phone.png"></a>';
+				if($('map',this).length>0)footerhtml+='<a href=http://maps.google.com.au/maps?q="'+$('map',this).attr('link')+'"><img src="../resources/img/map.png"></a>';
 				body.append('<div id="footer"><div id="foot-inner">'+footerhtml+'</div></div>');
 			})
 			Resize();
