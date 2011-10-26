@@ -69,6 +69,7 @@ $(document).ready(function(){
 				if($('facebook',this).length>0)footerhtml+='<a href="'+$('facebook',this).attr('link')+'"><img src="../resources/img/facebook.gif"></a>';
 				if($('twitter',this).length>0)footerhtml+='<a href="'+$('twitter',this).attr('link')+'"><img src="../resources/img/twitter.png"></a>';
 				if($('phone',this).length>0)footerhtml+='<a href=\"tel:'+$('phone',this).attr('link')+'\""><img src="../resources/img/phone.png"></a>';
+				if($('email',this).length>0)footerhtml+='<a href=mailto:"'+$('email',this).attr('link')+'"><img src="../resources/img/email.png"></a>';
 				if($('map',this).length>0)footerhtml+='<a href=http://maps.google.com.au/maps?q="'+$('map',this).attr('link')+'"><img src="../resources/img/map.png"></a>';
 				body.append('<div id="footer"><div id="foot-inner">'+footerhtml+'</div></div>');
 			})

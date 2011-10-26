@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<app title="Fight Gym">
+<app>
 	<style titles="#666" texts="#515151" />
 	
 	<image location="img/header.jpg" stretch="true" />
