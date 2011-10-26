@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<app>
+	<style titles="#666" texts="#515151" />
+	
+	<image location="img/header.jpg" stretch="true"/>
+	
+	<panel title="about us" opened="false">
+		<![CDATA[
+			<p style="text-align:center">
+			established 21 years ago and located in the heart of sydney with indoor and outdoor dining in a unique tranquil parkland settings under giant moreton bay fig trees.
+			</p>
+			<p style="text-align:center">
+			bodhi is a critically acclaimed award winning restaurant that pioneered and specialises in vegan yum cha and pan-asian cuisine
+			</p>
+			<p style="text-align:center">
+			with a wine list carefully selected from australia's finest boutique growers that are either certified organic, bio-dynamic or vegan, to complement our cuisine and go hand in hand with our philosophy of being an environmentally sustainable business 
+			</p>
+			<p style="text-align:center">
+			using locally grown produce, everything is freshly prepared daily and hand crafted by some of sydney's best asian chefs
+			</p>
+			<p style="text-align:center">
+			with a stunning setting and venue that seat up to 300 people we can cater for anything from an intimate dinner for two to exclusive events, product launches, private parties, weddings and corporate functions.
+			</p>
+		]]>
+	</panel>
+	<panel title="news/reviews">
+		<![CDATA[
+			<p style="text-align:center">
+				<a href="http://lifestyle.smhfeatures.com.au/default.aspx?iid=53631&startpage=page0000004">Dim Sum Delight – SMH 13th Sept 2011</a>
+			</p>
+			<p style="text-align:center">
+				<a href="http://www.bodhi.id.au/beta/wp-content/uploads/2011/02/Telegraph-Review-19_02_11.pdf">Daily Telegraph Review: Best Weekend 19th Feb</a>
+			</p>
+			<p style="text-align:center">
+				<a href="http://www.smh.com.au/entertainment/restaurants-and-bars/sydneys-top-10-yum-cha-restaurants-20100826-13tw9.html">bodhi named as one of Sydney’s top 10 yum cha restaurants</a>
+			</p>
+		]]>
+	</panel>
+	<panel title="restaurant - lunch">
+		<![CDATA[
+<div id="menubox">
+<h2 style="text-align: center;"><span style="color: #c0c0c0;">bodhi lunch menu</span></h2>
+<h3 style="text-align: center;"><strong>steamed or fresh</strong></h3>
+<p style="text-align: center;">steamed chinese cabbage bread buns 3<br>
+6.50</p>
+<p style="text-align: center;">steamed chickpea, coriander, ginger buns 3<br>
+6.50</p>
+<p style="text-align: center;">siew mai 4<br>
+5.50</p>
+<p style="text-align: center;">steamed bbq bread buns 3<br>
+6.50</p>
+<p style="text-align: center;">sweet japanese pumpkin gow dumplings 3<br>
+6.50</p>
+<p style="text-align: center;">steamed baby bokchoy wantons 4<br>
+6.50</p>
+<p style="text-align: center;">steamed carrot ginger gow dumplings 3<br>
+6.50</p>
+<p style="text-align: center;">steamed savoury sticky rice wrapped in wantons skin 3<br>
+6.50</p>
+<p style="text-align: center;">steamed australian field mushroom gow dumplings 3<br>
+6.50</p>
+<p style="text-align: center;">steamed red beetroot and ginger gow dumplings 3<br>
+6.50</p>
+<p style="text-align: center;">spicy tofu<br>
+6.50</p>
+<p style="text-align: center;">steamed english spinach gow dumplings 3<br>
+6.50</p>
+<p style="text-align: center;">satay tofu<br>
+7.50</p>
+<p style="text-align: center;">steamed savoury sticky wrapped in asian lotus leaves 2<br>
+7.50</p>
+<p style="text-align: center;">fresh rice noodle folds w asian vegetables<br>
+7.50</p>
+<p style="text-align: center;">fresh rice noodle folds in peanut, plumb &amp; soya sauce<br>
+7.50</p>
+<p style="text-align: center;">fresh rice noodle folds with vegetarian prawns<br>
+8.50</p>
+<p style="text-align: center;">japanese konyaku noodle in spice tom yum sauce<br>
+7.50</p>
+<p style="text-align: center;">lightly blanch fresh chinese green kalian vegetables<br>
+7.50</p>
+<p style="text-align: center;">satay salad of sprouts, thai mint, basil in a tofu pocket 3<br>
+7.50</p>
+<p style="text-align: center;">vietnamese spring roll 3<br>
+7.50</p>
+<p style="text-align: center;">fresh shitaki mushrooms on chinese cabbage<br>
+8.50</p>
+<p style="text-align: center;">vege sausage roll<br>
+6.50</p>
+<p style="text-align: center;">tom yum tofu stuffed organic tomatos<br>
+6.50</p>
+<p style="text-align: center;">steamed eggplant in miso sauce<br>
+7.50</p>
+<p style="text-align: center;">soft steamed beanskin roll<br>
+7.50</p>
+<p style="text-align: center;">&nbsp;</p>
+<h3 style="text-align: center;">ovenbaked panfried deepfried sauteed</h3>
+<p style="text-align: center;">glass noodle bodhi spring rolls 3<br>
+5.50</p>
+<p style="text-align: center;">cream corn mock chicken crispy wanton3<br>
+6.50</p>
+<p style="text-align: center;">mushroom, mixed vegetable footballs 3<br>
+5.50</p>
+<p style="text-align: center;">vegetable curry puff 3<br>
+6.50</p>
+<p style="text-align: center;">australian spinach crispy rice skin pillow 3<br>
+7.50</p>
+<p style="text-align: center;">potato croquette 3<br>
+6.50</p>
+<p style="text-align: center;">pan seared white raddish cake<br>
+7.50</p>
+<p style="text-align: center;">tempura salt and pepper vegetarian prawns<br>
+8.50</p>
+<p style="text-align: center;">pan fried bean skin roll<br>
+7.50</p>
+<p style="text-align: center;">bodhi special fried rice<br>
+7.50</p>
+<p style="text-align: center;">fried rice noodles<br>
+7.50</p>
+<p style="text-align: center;">&nbsp;</p>
+<h3 style="text-align: center;">bites and delights</h3>
+<p style="text-align: center;">yellow mung bean paste buns 3<br>
+6.50</p>
+<p style="text-align: center;">black sesame seed buns 3<br>
+6.50</p>
+<p style="text-align: center;">soft sweet peanut snow balls 3<br>
+6.50</p>
+<p style="text-align: center;">soft sweet black sesame seed balls 3<br>
+6.50</p>
+<p style="text-align: center;">fresh passionfruit agar jelly<br>
+6.50</p>
+<p style="text-align: center;">lychee agar jelly<br>
+6.50</p>
+<p style="text-align: center;">coconut agar jelly<br>
+6.50</p>
+<p style="text-align: center;">orange pearl sago<br>
+6.50</p>
+<p style="text-align: center;">coconut creamed pearl sago with fresh fruits<br>
+6.50</p>
+<p style="text-align: center;">bake custard sago<br>
+6.50</p>
+<p style="text-align: center;">mango pudding<br>
+6.50</p>
+<p style="text-align: center;">seasonal fresh fruits<br>
+6.50</p>
+<p style="text-align: center;">lemon tarts 2<br>
+6.50</p>
+<p style="text-align: center;">&nbsp;</p>
+<h3 style="text-align: center;">NOTE : As our produce is mostly organic, certain dishes may vary and be seasonal</h3>
+</div>		
+			]]>
+	</panel>
+	<panel title="restaurant - dinner">
+		<![CDATA[
+<h2 style="text-align:center"><span style="color: #c0c0c0;">bodhi dinner menu</span></h2>
+<h3 style="text-align: center;">soup</h3>
+<p style="text-align:center">wanton parcels in clear vegetable broth<br>
+8.5</p>
+<p style="text-align:center">galangal, lemongrass, spicy tom yum with basil and lime leaf<br>
+9.5</p>
+<h3 style="text-align: center;">entrée</h3>
+<p style="text-align:center">edemame beans with rock salt</p>
+<p style="text-align:center">4.5</p>
+<p style="text-align:center">steamed savoury sticky rice flower buns</p>
+<p style="text-align:center">8.0</p>
+<p style="text-align:center">mixed – pumpkin, english spinach, mushroom dumpling</p>
+<p style="text-align:center">8.0</p>
+<p style="text-align:center">assorted – bbq, chickpea, chinese cabbage steamed buns</p>
+<p style="text-align:center">8.0</p>
+<p style="text-align:center">tempura australian field mushrooms, bbq sauce</p>
+<p style="text-align:center">8.5</p>
+<p style="text-align:center">glass noodle spring rolls</p>
+<p style="text-align:center">8.5</p>
+<p style="text-align:center">sweet yam tempura spring rolls served with sweet chilli sauce</p>
+<p style="text-align:center">9.5</p>
+<p style="text-align:center">salt,pepper, chilli, corriander, tempura vegetarian ‘prawns’</p>
+<p style="text-align:center">12.5</p>
+<h3 style="text-align: center;">main</h3>
+<p style="text-align:center">vegetarian sweet and sour chicken</p>
+<p style="text-align:center">16.5</p>
+<p style="text-align:center">dry roasted salted peanut spices topped on fried eggplant with a celery and&nbsp;asian mushroom stuffing</p>
+<p style="text-align:center">17.5</p>
+<p style="text-align:center">beancurd skin, tofu, nori, sushi roll on a bed of wakame</p>
+<p style="text-align:center">18.0</p>
+<p style="text-align:center">salt and pepper silky tofu salad with wakami, cucumber noodle, baby leaves, mint and yuzu dressing</p>
+<p style="text-align:center">18.5</p>
+<p style="text-align:center">sweet vinegar and soy sauce glazed crispy shitake mushrooms</p>
+<p style="text-align:center">19.5</p>
+<p style="text-align:center">warm salad of peking duck, watermelon, coriander, baby leaves and crushed peanut on layers of asian pastry with a citrus soy reduction</p>
+<p style="text-align:center">19.5</p>
+<p style="text-align:center">asian stuffed shitake mushroom and stuffed capsicum with a black bean dressing</p>
+<p style="text-align:center">19.5</p>
+<p style="text-align:center">malaysian&nbsp;curry, lychee, asparagus, pineapple, snow pea, tofu, bamboo shoots and pine nuts</p>
+<p style="text-align:center">19.0</p>
+<p style="text-align:center">mushroom, asparagus, red capsicum, soft tofu and cashew nuts tossed in a creamy coconut lemongrass sauce in an asian pastry nest</p>
+<p style="text-align:center">20.0</p>
+<p style="text-align:center">bodhi vegetarian peking ‘duck’, bbq sauce, cucumber and pancakes</p>
+<p style="text-align:center">21.0</p>
+<h3 style="text-align: center;"><strong>on the side</strong></h3>
+<p style="text-align:center">white rice or brown rice</p>
+<p style="text-align:center">3.5</p>
+<p style="text-align:center">savoury sticky rice parcel steamed in lotus leaves</p>
+<p style="text-align:center">9.0</p>
+<p style="text-align:center">tossed asian greens, lemon grass, kaffiir lime leaves and white raddish</p>
+<p style="text-align:center">13.5</p>
+<p style="text-align:center">stir fry grean bean, shredded tofu pickled radish and lime with spicy black bean sauce</p>
+<p style="text-align:center">15.0</p>
+<p style="text-align:center">tossed kailan, basil and mushroom nuggets with mushroom sauce</p>
+<p style="text-align:center">15.0</p>
+<h3 style="text-align: center;">bites and delights</h3>
+<p style="text-align:center">choice of dairy free ice cream – coconut and pandan leaf sorbet, vanilla bean and almond bark, chocolate, vanilla</p>
+<p style="text-align:center">9.0</p>
+<p style="text-align:center">sour orange sago pudding&nbsp;with coconut cream and coconut, pandan leaf&nbsp;sorbet</p>
+<p style="text-align:center">12.0</p>
+<p style="text-align:center">espresso and vanilla ice cream float with a choice of liqueur – frangelico,&nbsp;cointreau, drambuie</p>
+<p style="text-align:center">12.5</p>
+<p style="text-align:center">brandy, apple, ginger compote with a cinnamon fruit muesli crumble and vanilla ice cream</p>
+<p style="text-align:center">13.0</p>
+<p style="text-align:center">lemongrass infused rice pudding with a passionfruit coulis and caramelised sugar</p>
+<p style="text-align:center">13.5</p>		
+			]]>
+	</panel>
+	<panel title="bar">
+		<![CDATA[
+		
+		
+			]]>
+	</panel>
+	<panel title="functions">
+		<![CDATA[
+			<p style="text-align: center;">
+			the bodhi can cater for all different types of functions and event be it a small, intimate sit-down birthday dinner through to a large celebration of up to 300 people
+			</p>
+ 			<p style="text-align: center;">
+			we can help organise your event both from a catering perspective but also we can assist you with props, set designing or booking live performing artists (for example – fire dancers, snake charmers, henna tattooists, belly dancers etc.)
+			</p>
+ 			<p style="text-align: center;">
+			if you need any suggestions or help please ask – we don’t charge any venue hire fees so you can max out your budget on food and drink!
+			</p>
+ 			<p style="text-align: center;">
+			for more information about functions
+			</p>
+			<p style="text-align: center;">
+			please call 02 9360 2523
+			</p>
+			]]>
+	</panel>
+	<footer>
+		<text><![CDATA[
+			© 2011 Bodhi Restaurant | Bar
+		]]></text>
+		<email link="bodhireservations@gmail.com"/>
+		<phone link="+61293602523"/>
+		<map link="2-4+College+St+Sydney+NSW+2000"/>
+		<facebook link="http://www.facebook.com/pages/Bodhi-Restaurant-Bar/145049932208860"/>
+	</footer>
+</app>
