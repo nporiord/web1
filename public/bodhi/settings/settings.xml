@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<app>
-	<style titles="#666" texts="#515151" />
+<app title="Bodhi">
+	<style background="black"/>
 	
 	<image location="img/header.jpg" stretch="true"/>
 	

@@ -7,19 +7,30 @@ $(document).ready(function(){
 		url: "settings/settings.xml",
 		dataType: "xml",
 		success: function(xml) {
+			$("style",xml).each(function(){
+				var styleTag = $(this)
+				if($(this).attr('background')!=""){
+					$("#container").each(function(){
+						$(this).css({"background-color":styleTag.attr('background')});
+					})
+				}
+			})
+			
 			$("image",xml).each(function(){
 				if($(this).attr('location')!=""){
-					body.append('<img src="'+$(this).attr('location')+'">');
+					body.append('<div class="panelwidth"><img src="'+$(this).attr('location')+'">');
 					if($(this).attr('stretch')=='true') {
 						$('img',body).load(function(){
 							$(this).addClass('stretch');
 							var prop = $(this).width()/$(this).height();
-							$(this).css({width:$(window).width()-35});
+							$(this).css({width:$(this).parent().width()});
 							$(this).css({height:$(this).width()/prop})
 						})
-					} 
+					}
+					body.append('</div>')
 				}
 			})
+			
 			$("panel",xml).each(function(){
 				body.append('<div class="panel"><div class="title"><a href="#">'+$(this).attr('title')+'</a></div><div class="content">'+$(this).text()+'</div></div>');
 				var panel = $(this);
@@ -41,6 +52,7 @@ $(document).ready(function(){
 					}
 				})
 			});
+			
 			$('.panel .title a',body).each(function(){
 				$(this).click(function(e){
 				e.preventDefault();
@@ -65,20 +77,29 @@ $(document).ready(function(){
 			$('footer',xml).each(function(){
 				footer=true;
 				var footerhtml = '';
+				
+				$('facebook',this).each(function(){
+					footerhtml+='<a href="'+$(this).attr('link')+'"><img src="../resources/img/facebook.gif"></a>';
+				})
 				if($('text',this).length>0)footerhtml+='<span>'+$('text',this).text()+'</span>';
-				if($('facebook',this).length>0)footerhtml+='<a href="'+$('facebook',this).attr('link')+'"><img src="../resources/img/facebook.gif"></a>';
 				if($('twitter',this).length>0)footerhtml+='<a href="'+$('twitter',this).attr('link')+'"><img src="../resources/img/twitter.png"></a>';
 				if($('phone',this).length>0)footerhtml+='<a href=\"tel:'+$('phone',this).attr('link')+'\""><img src="../resources/img/phone.png"></a>';
 				if($('email',this).length>0)footerhtml+='<a href=mailto:"'+$('email',this).attr('link')+'"><img src="../resources/img/email.png"></a>';
 				if($('map',this).length>0)footerhtml+='<a href=http://maps.google.com.au/maps?q="'+$('map',this).attr('link')+'"><img src="../resources/img/map.png"></a>';
 				body.append('<div id="footer"><div id="foot-inner">'+footerhtml+'</div></div>');
 			})
+			
+			$('app',xml).each(function(){
+				document.title = $(this).attr('title');
+			});
+			
 			Resize();
 		},
 		error:function(error){
 			alert('error in app')
 		}
 	})
+	
 	
 	$(window).resize(Resize);
 	
@@ -90,15 +111,6 @@ $(document).ready(function(){
 			$(this).css({width:$(window).width()-35});
 			$(this).css({height:$(this).width()/prop})
 		})
-		/*
-		if(footer){
-			$('#footer',body.parent()).each(function(){
-				$(this).css({width:$(window).width()-47, top:$(window).height()-50});
-			})
-			bheight-=72;
-		}*/
-		
-		//body.css('height', bheight)
 	}
 	Resize();
 })

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<app>
-	<style titles="#666" texts="#515151" />
+<app title="Fight Gym">
+	<style background="#666666" texts="#515151"/>
 	
 	<image location="img/header.jpg" stretch="true" />
 	
@@ -65,49 +65,9 @@
 							<td>Kick Boxing<p>Kalvin</p><p>7.10 - 8am</p></td>
 							<td><p>Box &amp; Abs</p><p>Anthony</p><p>7.10 - 8am</p></td>
 						</tr>
-						<tr>
-							<td valign="top" colspan="5" bgcolor="#FFFFFF" width="575" height="16"><p>&nbsp;&nbsp;</td>
-						</tr>
-						<tr>
-							<td><p>Boxing Basics</p><p>Anthony</p><p>12.10 - 1pm</p></td>
-							<td><p>Boxing</p><p>Patricia</p><p>12.10 - 1pm</p></td>
-							<td><p>Boxing Basics</p><p>Patricia</p><p>12.10 - 1pm</p></td>
-							<td><p>Boxing</p><p>Anthony</p><p>12.10 - 1pm</p></td>
-							<td><p>OMG</p><p>Patricia</p><p>12.10 - 2.00</p><p>Join and leave at any time.</p></td>
-						</tr>
-						<tr>
-							<td><p>Boxing</p><p>Anthony</p><p>1.10 - 2pm</p></td>
-							<td><p>Kick Boxing</p><p>Patricia</p><p>1.10 - 2pm</p></td>
-							<td><p>Boxing</p><p>Patricia</p><p>1.10 - 2pm</p></td>
-							<td><p>Boxing</p><p>Anthony</p><p>1.10 - 2pm</p></td>
-						</tr>
-						<tr>
-							<td valign="top" colspan="5" bgcolor="#FFFFFF" width="575" height="16"><p>The gym is open for members to use outside of class times too. &nbsp;</td>
-						</tr>
-						<tr>
-							<td><p>Boxing</p><p>Patricia</p><p>5.10 - 6pm</p></td>
-							<td><p>Boxing</p><p>Anthony<p>5.10 - 6pm</p></td>
-							<td><p>Boxing</p><p>Patricia<p>5.10 - 6pm</p></td>
-							<td><p>Boxing Basics</p><p>Max<p>5.10 - 6pm</p></td>
-							<td><p>Free-Style Class</p><p>Ben</p><p>5.10 - 6.30pm</p><p>Hands on, practical fight training and technique.</p></td>
-						</tr>
-						<tr>
-							<td><p>Hell Boxing</p><p>Patricia</p><p>6.10 - 7pm</p></td>
-							<td><p>Boxing &amp; Abs</p><p>Anthony</p><p>6.10 - 7pm</p></td>
-							<td><p>Kick Boxing</p><p>Patricia</p><p>6.10 - 7pm</p></td>
-							<td><p>Boxing</p><p>Max</p><p>6.10 - 7pm</p></td>
-						</tr>
-						<tr>
-							<td><p>Squad</p><p>(pay per class)<p></p><p>7 - 8pm</p></td>
-							<td></td>
-							<td><p>Squad</p><p>(pay per class)</p><p>7 - 8pm</p></td>
-							<td></td>
-							<td><p>Saturday</p><p>Boxing Technique</p><p>9am with Tom</p></td>
-							
-						</tr>
 					</tbody>
 				</table>		
-
+				ETC. ETC. ETC.  
 			]]>
 	</panel>
 	<footer>
@@ -116,7 +76,8 @@
 		]]></text>
 		<phone link="+61292998080"/>
 		<map link="301+Kent+Street,+Sydney,+NSW+2000"/>
-		<facebook link=""/>
+		<facebook link="http://www.facebook.com/pages/Fight-Gym-Manly-Beach/160826247297695"/>
+		<facebook link="http://www.facebook.com/pages/Fight-Gym-Sydney-City/199851030053876"/>
 		<twitter link=""/>
 	</footer>
 </app>

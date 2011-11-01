@@ -24,7 +24,6 @@ body{
 #container {
 	width:100%;
 	padding:10px;
-	background:url(../img/bg.png) repeat-x ;
 	background-position:left bottom;
 }
 #footer{
@@ -52,6 +51,12 @@ body{
 #footer a img {
 	border:none;
 }
+
+.panelwidth {
+	width:100%;
+	display:block;
+}
+
 .panel {
 	width:100%;
 	background:#d1d1d1;
@@ -95,7 +100,7 @@ body{
 	padding:5px 8px;
 	color:#515151;
 	font-size:13px;
-	width:100%;
+	width:90%;
 	text-align:left;
 }
 
