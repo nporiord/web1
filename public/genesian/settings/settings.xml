@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<app title="The Genesian Theatre">
+	<style background="#336699"/>
+	
+	<image location="img/header.jpg" stretch="true"/>
+	
+	<panel title="Now On Stage">
+		<![CDATA[
+<div id="content">
+<div id="show">
+<div id="Poster"><img src="http://www.genesiantheatre.com.au/s2011/4/images/poster.jpg"></div>
+<h2>An Ideal Husband</h2>
+<h3>By Oscar Wilde</h3>
+<h4>Directed by Timothy Bennett</h4>
+
+Season: 29th October - 10th December 2011<br>
+Preview night 28th October<br>
+Friday and Saturday nights at 8pm<br>
+Sunday matinée at 4.30pm<br>
+<br><br>
+
+<h3>Opening Night Sold Out!</h3>
+
+<div id="Menu" style="width:120px; float:left">
+<ul><li><a href="http://sa2.seatadvisor.com/sabo/servlets/EventSearch?presenter=AUGENESIAN&event=HUSBAND">Book Here</a></li></ul></div><br><br>
+
+<p>Download a <a href="s2011/4/postcard.pdf">PDF flyer</a>.</p>
+
+<div align="justify">
+<p><i>An Ideal Husband</i> is a clever blend of comedy and drama superbly crafted with Oscar Wilde's customary flair and sharp, satirical and timeless wit.</p>
+
+<p>A successful politician's career, honour and marriage are threatened when he is confronted with blackmail over a past misdeed. Wilde quickly establishes an intriguing plot and with an array of colourful characters and sparkling dialogue the story flows at a brisk pace.</p>
+
+<p>Wilde's observations on power, morals, human frailities, marriage, politics and honour are still fresh today. His polished writing and sparkling repartee have lost none of their appeal and guarantee an evening of satisfying and entertaining theatre. The costumes for the production will be designed by Peter Henson and will ensure that Wilde's wit is matched with a handsome and stylish recreation of the period.</p>
+
+<table>
+<tbody><tr><td><b>Production:</b></td></tr>
+<tr><td>Director:</td><td><b>Timothy Bennett</b></td></tr>
+<tr><td>Assistant Director:</td><td><b>Lilianna Komljenovic</b></td></tr>
+<tr><td>Set Design:</td><td><b>Owen Gimblett</b></td></tr>
+<tr><td>Costume Design:</td><td><b>Peter Henson</b></td></tr>
+<tr><td>Lighting Design:</td><td><b>Mark Banks</b></td></tr>
+<tr><td>Sound Design:</td><td><b>Tom Massey</b></td></tr>
+<tr><td>Production Manager:</td><td><b>Roger Gimblett</b></td></tr>
+<tr><td><br></td></tr>
+<tr><td><b>Crew:</b></td></tr>
+<tr><td>Stage Manager:</td><td><b>Caroline Gage</b></td></tr>
+<tr><td>Lighting &amp; Sound Operation:</td><td><b>Frances Attard<br>Emma Medbury</b></td></tr>
+<tr><td><br></td></tr>
+<tr><td><b>Cast:</b></td></tr>
+<tr><td>Sir Robert Chiltern:</td><td><b>Andrew O'Connell</b></td></tr>
+<tr><td>Lady Gertrude Chiltern:</td><td><b>Faran Martin</b></td></tr>
+<tr><td>Lord Arthur Goring:</td><td><b>John Willis-Richards</b></td></tr>
+<tr><td>Mrs Laura Cheveley:</td><td><b>Melanie Robinson</b></td></tr>
+<tr><td>Lord Caversham:</td><td><b>Gary Woods</b></td></tr>
+<tr><td>Miss Mabel Chiltern:</td><td><b>Jodie Lee Behrendorff</b></td></tr>
+<tr><td>Lady Markby:</td><td><b>Sandra Bass</b></td></tr>
+<tr><td>Lady Olivia Basildon:</td><td><b>Lyndal Judges</b></td></tr>
+<tr><td>Mrs Margaret Marchmont:</td><td><b>Georgina Lloyd</b></td></tr>
+<tr><td>Vicomte De Nanjac:</td><td><b>Christophe Truschel</b></td></tr>
+<tr><td>Mr Montford:</td><td><b>Jason Thorne</b></td></tr>
+<tr><td>Duchess of Maryborough:</td><td><b>Joyce Birch</b></td></tr>
+<tr><td>Phipps:</td><td><b>Jareth Norman</b></td></tr>
+<tr><td>Mason:</td><td><b>Simon Frame</b></td></tr>
+</tbody></table>
+
+<p><i>"Hugely entertaining, a curious mixture of melodrama, Wilde's distinctive epigrammatic wit and sudden moments of deeper feeling.."<br>
+The Daily Telegraph</i></p>
+ 
+<p><i>"It offers a good evening and reminds us that Wilde's wit masked a vision of life."</i></p>
+
+<p><i>Oscar Wilde's satire on political corruption has rarely seemed so relevant and <b>An Ideal Husband</b> is Wilde's most earnest social satire"<br>
+The Guardian</i></p>
+</div>
+</div>
+		</div>		
+		]]>
+	</panel>
+	<panel title="Coming Soon">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="Current Season">
+		<![CDATA[
+			]]>
+	</panel>
+	<panel title="Previous Productions">
+		<![CDATA[
+			]]>
+	</panel>
+	<panel title="Booking Information">
+		<![CDATA[
+			]]>
+	</panel>
+	<panel title="About Us">
+		<![CDATA[
+			]]>
+	</panel>
+	<panel title="Our History">
+		<![CDATA[
+			]]>
+	</panel>
+	<panel title="Membership">
+		<![CDATA[
+			]]>
+	</panel>
+	<footer>
+		<text><![CDATA[
+			Copyright 2007, The Genesian Theatre Inc.
+		]]></text>
+		<email link="bodhireservations@gmail.com"/>
+		<phone link="+61292676646"/>
+		<map link="420+Kent+St+Sydney+NSW+2000"/>
+		<twitter link="http://twitter.com/#!/genesians"/>
+		<facebook link="http://www.facebook.com/groups/4273716850/"/>
+	</footer>
+</app>

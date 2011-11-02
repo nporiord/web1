@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<app title="deVine Food And Wine">
+	<style background="#44260D"/>
+	
+	<image location="img/header1.bmp" stretch="true"/>
+	<image location="img/header.jpg" stretch="true"/>
+	
+	<panel title="Home" opened="false" color="#44260D" textcolor="#44260D" bgcolor="#FFFFFF">
+		<![CDATA[
+			<h1>The deVine Experience</h1>
+			
+			<p>Conveniently located in the heart of Sydney CBD, deVine Food & Wine offers an Italian-inspired culinary experience.</p>
+
+			<p>The deVine experience offers discerning patrons a choice of menus ranging from the deVine Bar menu to the deVine Restaurant menu. Each menu caters to a unique experience within the restaurant. Join us for a trendy after-work bar experience, offering a selection of meals suitable for a de-stressing afternoon with friends; or reserve a table to experience the fine-dining ambiance accompanied by the tantalising gourmet creations of deVine's master chefs. deVine's private dining area also caters for all group occasions from intimate wedding receptions to corporate guest entertainment.</p>
+
+			<p>The deVine experience prides itself on offering a selection of premium wines to satisfy the most discerning of palettes. From the fragrant aromas of a fine French merlot to the devilishly bitter-sweet bouquet of a timeless Australian Shiraz, deVine has an exhaustive offering which remains a signature of the experience.</p>
+		]]>
+	</panel>
+	<panel title="de vine Food" opened="false" color="#44260D" textcolor="#44260D" bgcolor="#FFFFFF">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="de Vine Wine" opened="false" color="#44260D" textcolor="#44260D" bgcolor="#FFFFFF">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="de Vine Bar" opened="false" color="#44260D" textcolor="#44260D" bgcolor="#FFFFFF">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="de Vine Functions" opened="false" color="#44260D" textcolor="#44260D" bgcolor="#FFFFFF">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="Contact Us" opened="false" color="#44260D" textcolor="#44260D" bgcolor="#FFFFFF">
+		<![CDATA[
+		]]>
+	</panel>
+	<footer bgcolor="#44260D" textcolor="#FFF">
+		<text><![CDATA[
+			de Vine Food and Wine Restaurant
+		]]></text>
+		<email link="info@devinefoodandwine.com.au"/>
+		<phone link="+61292626906"/>
+		<map link="32+Market+Street+Sydney+NSW+2000"/>
+	</footer>
+</app>
