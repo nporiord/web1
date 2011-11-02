@@ -2,7 +2,14 @@ use Rack::Static,
 	:urls => [
 		"/resources",
 		"/teknor",
-		"/fightGym"], 
+		"/fightGym",
+		"/bodhi",
+		"/cafeAmici",
+		"/redoak",
+		"/bambini",
+		"/smallBar",
+		"/deVine"
+		], 
 	:root => "public";
 	
 run lambda { |env|

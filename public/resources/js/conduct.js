@@ -78,15 +78,25 @@ $(document).ready(function(){
 				footer=true;
 				var footerhtml = '';
 				
+				if($('text',this).length>0)footerhtml+='<span>'+$('text',this).text()+'</span><div>';
 				$('facebook',this).each(function(){
 					footerhtml+='<a href="'+$(this).attr('link')+'"><img src="../resources/img/facebook.gif"></a>';
 				})
-				if($('text',this).length>0)footerhtml+='<span>'+$('text',this).text()+'</span>';
 				if($('twitter',this).length>0)footerhtml+='<a href="'+$('twitter',this).attr('link')+'"><img src="../resources/img/twitter.png"></a>';
 				if($('phone',this).length>0)footerhtml+='<a href=\"tel:'+$('phone',this).attr('link')+'\""><img src="../resources/img/phone.png"></a>';
 				if($('email',this).length>0)footerhtml+='<a href=mailto:"'+$('email',this).attr('link')+'"><img src="../resources/img/email.png"></a>';
 				if($('map',this).length>0)footerhtml+='<a href=http://maps.google.com.au/maps?q="'+$('map',this).attr('link')+'"><img src="../resources/img/map.png"></a>';
+				if($('text',this).length>0)footerhtml+='</div>';
 				body.append('<div id="footer"><div id="foot-inner">'+footerhtml+'</div></div>');
+				
+				var footer = $(this);
+				
+				if($(this).attr('color')!=""){
+					$("#footer").each(function(){
+						$(this).css('color',footer.attr('textcolor'));
+						$(this).css('background',footer.attr('bgcolor'));
+					})
+				}
 			})
 			
 			$('app',xml).each(function(){
