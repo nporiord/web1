@@ -1,14 +1,13 @@
 use Rack::Static, 
 	:urls => [
 		"/resources",
-		"/teknor",
-		"/fightgym",
+		"/abcpool",
 		"/bodhi",
-		"/cafeamici",
+		"/devine",
+		"/fightgym",
+		"/genesian",
 		"/redoak",
-		"/bambini",
-		"/smallbar",
-		"/devine"
+		"/smallbarerskine"
 		], 
 	:root => "public";
 	
