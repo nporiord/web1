@@ -4,7 +4,7 @@
 	
 	<image location="img/header.jpg" stretch="true"/>
 	
-	<panel title="about us" opened="false">
+	<panel title="about us" opened="false" color="#000000" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			<p style="text-align:center">
 			established 21 years ago and located in the heart of sydney with indoor and outdoor dining in a unique tranquil parkland settings under giant moreton bay fig trees.
@@ -23,7 +23,7 @@
 			</p>
 		]]>
 	</panel>
-	<panel title="news/reviews">
+	<panel title="news/reviews" opened="false" color="#000000" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			<p style="text-align:center">
 				<a href="http://lifestyle.smhfeatures.com.au/default.aspx?iid=53631&startpage=page0000004">Dim Sum Delight – SMH 13th Sept 2011</a>
@@ -36,7 +36,7 @@
 			</p>
 		]]>
 	</panel>
-	<panel title="restaurant - lunch">
+	<panel title="restaurant - lunch" opened="false" color="#000000" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 <div id="menubox">
 <h2 style="text-align: center;"><span style="color: #c0c0c0;">bodhi lunch menu</span></h2>
@@ -150,7 +150,7 @@
 </div>		
 			]]>
 	</panel>
-	<panel title="restaurant - dinner">
+	<panel title="restaurant - dinner" opened="false" color="#000000" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 <h2 style="text-align:center"><span style="color: #c0c0c0;">bodhi dinner menu</span></h2>
 <h3 style="text-align: center;">soup</h3>
@@ -220,13 +220,13 @@
 <p style="text-align:center">13.5</p>		
 			]]>
 	</panel>
-	<panel title="bar">
+	<panel title="bar" opened="false" color="#000000" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 		
 		
 			]]>
 	</panel>
-	<panel title="functions">
+	<panel title="functions" opened="false" color="#000000" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			<p style="text-align: center;">
 			the bodhi can cater for all different types of functions and event be it a small, intimate sit-down birthday dinner through to a large celebration of up to 300 people
@@ -245,10 +245,7 @@
 			</p>
 			]]>
 	</panel>
-	<footer>
-		<text><![CDATA[
-			© 2011 Bodhi Restaurant | Bar
-		]]></text>
+	<footer color="#000000" textcolor="#000000" bgcolor="#FFFFFF">
 		<email link="bodhireservations@gmail.com"/>
 		<phone link="+61293602523"/>
 		<map link="2-4+College+St+Sydney+NSW+2000"/>

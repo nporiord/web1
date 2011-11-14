@@ -37,9 +37,6 @@
 		]]>
 	</panel>
 	<footer bgcolor="#44260D" textcolor="#FFF">
-		<text><![CDATA[
-			de Vine Food and Wine Restaurant
-		]]></text>
 		<email link="info@devinefoodandwine.com.au"/>
 		<phone link="+61292626906"/>
 		<map link="32+Market+Street+Sydney+NSW+2000"/>

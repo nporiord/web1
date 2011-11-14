@@ -4,7 +4,7 @@
 	
 	<image location="img/header.jpg" stretch="true"/>
 	
-	<panel title="Now On Stage">
+	<panel title="Now On Stage" color="#003366" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 <div id="content">
 <div id="show">
@@ -76,37 +76,37 @@ The Guardian</i></p>
 		</div>		
 		]]>
 	</panel>
-	<panel title="Coming Soon">
+	<panel title="Coming Soon" color="#003366" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 		]]>
 	</panel>
-	<panel title="Current Season">
+	<panel title="Current Season" color="#003366" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			]]>
 	</panel>
-	<panel title="Previous Productions">
+	<panel title="Previous Productions" color="#003366" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			]]>
 	</panel>
-	<panel title="Booking Information">
+	<panel title="Booking Information" color="#003366" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			]]>
 	</panel>
-	<panel title="About Us">
+	<panel title="About Us" color="#003366" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			]]>
 	</panel>
-	<panel title="Our History">
+	<panel title="Our History" color="#003366" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			]]>
 	</panel>
-	<panel title="Membership">
+	<panel title="Membership" color="#003366" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			]]>
 	</panel>
-	<footer>
+	<footer color="#003366" bgcolor="#FFFFFF">
 		<text><![CDATA[
-			Copyright 2007, The Genesian Theatre Inc.
+			 The Genesian Theatre Inc.
 		]]></text>
 		<email link="bodhireservations@gmail.com"/>
 		<phone link="+61292676646"/>

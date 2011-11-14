@@ -93,7 +93,7 @@ $(document).ready(function(){
 				
 				if($(this).attr('color')!=""){
 					$("#footer").each(function(){
-						$(this).css('color',footer.attr('textcolor'));
+						$(this).css('color',footer.attr('color'));
 						$(this).css('background',footer.attr('bgcolor'));
 					})
 				}

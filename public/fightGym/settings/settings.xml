@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <app title="Fight Gym">
-	<style background="#666666" texts="#515151"/>
+	<style background="#151515"/>
 	
 	<image location="img/header.jpg" stretch="true" />
 	
-	<panel title="Home" opened="false">
+	<panel title="Home" opened="false" color="#D10019" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			<p>Welcome to Fight Gym 
 			<p>Whether you want to be a fit fighter or just fighting fit, the team at Fight Gym can help you achieve your fitness goals. All classes are lead by qualified instructors for each discipline, so you know that your training is cutting edge, safe and designed to help you get what you want.
@@ -13,7 +13,7 @@
 			<p>Fight Gym Fight Night 8 - Battle on the Harbour. The date and venue has been confirmed and the serious end of training has begun. For details on competing, volunteering and ticket sales, check it out  here.
 		]]>
 	</panel>
-	<panel title="About Us">
+	<panel title="About Us" color="#D10019" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			<p>
 			Fight Gym started as a small Martial Arts studio in a back street lane way of Manly in 1994. 
@@ -40,7 +40,7 @@
 			</p>
 		]]>
 	</panel>
-	<panel title="City Timetable" opened="true">
+	<panel title="City Timetable" opened="true" color="#D10019" textcolor="#000000" bgcolor="#FFFFFF">
 		<![CDATA[
 			
 				<p>
@@ -70,10 +70,7 @@
 				ETC. ETC. ETC.  
 			]]>
 	</panel>
-	<footer>
-		<text><![CDATA[
-			© Fight Gym 1994 - 2011
-		]]></text>
+	<footer color="#000000" bgcolor="#D10019">
 		<phone link="+61292998080"/>
 		<map link="301+Kent+Street,+Sydney,+NSW+2000"/>
 		<facebook link="http://www.facebook.com/pages/Fight-Gym-Manly-Beach/160826247297695"/>
