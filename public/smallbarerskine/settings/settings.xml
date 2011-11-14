@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<app title="Small Bar Erskine Street">
+	<style background="#F0F0EE"/>
+	
+	<image location="img/header.jpg"/>
+	
+	<panel title="Home" opened="false" color="#960807" textcolor="#000000" bgcolor="#F0F0EE">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="Space" opened="false" color="#960807" textcolor="#000000" bgcolor="#F0F0EE">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="What's On" opened="false" color="#960807" textcolor="#000000" bgcolor="#F0F0EE">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="Menu" opened="false" color="#960807" textcolor="#000000" bgcolor="#F0F0EE">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="Functions" opened="false" color="#960807" textcolor="#000000" bgcolor="#F0F0EE">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="Location" opened="false" color="#960807" textcolor="#000000" bgcolor="#F0F0EE">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="Press" opened="false" color="#960807" textcolor="#000000" bgcolor="#F0F0EE">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="Contact" opened="false" color="#960807" textcolor="#000000" bgcolor="#F0F0EE">
+		<![CDATA[
+		]]>
+	</panel>
+	<panel title="Jobs" opened="false" color="#960807" textcolor="#000000" bgcolor="#F0F0EE">
+		<![CDATA[
+		]]>
+	</panel>
+	<footer color="#960807" bgcolor="#F0F0EE">
+		<email link="pjensen@smallbar.net.au"/>
+		<phone link="+61292790782"/>
+		<map link="48+erskine+street+sydney+nsw+2000"/>
+		<facebook link="http://www.facebook.com/pages/Small-Bar-Erskine-St/167077493310580"/>
+		<twitter link="http://twitter.com/#!/SmallBarSydney"/>
+	</footer>
+</app>
