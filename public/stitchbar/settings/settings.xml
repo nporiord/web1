@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<app title="stich bar">
+	<style background="black"/>
+	
+	<image location="img/header.png" stretch="true"/>	
+	<footer color="white" bgcolor="black">
+		<email link="bud.crew@gmail.com"/>
+		<phone link="+61292624986"/>
+		<map link="338+kent+street+nsw+2000"/>
+		<twitter link="http://twitter.com/#!/since_i_leftyou"/>
+		<facebook link="http://www.facebook.com/SinceILeftYouSydney"/>
+	</footer>
+</app>
