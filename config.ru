@@ -6,7 +6,6 @@ use Rack::Static,
 		"/devine",
 		"/fightgym",
 		"/genesian",
-		"/redoak",
     	"/sinceileftyou",        
         "/stitchbar",                
 		"/smallbarerskine"
