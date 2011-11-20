@@ -7,6 +7,7 @@ use Rack::Static,
 		"/fightgym",
 		"/genesian",
 		"/redoak",
+    	"/sinceileftyou",        
 		"/smallbarerskine"
 		], 
 	:root => "public";
