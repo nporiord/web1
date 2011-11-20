@@ -4,7 +4,7 @@
 	
 	<image location="img/header.png" stretch="true"/>	
     
-    <panel title="About Us" opened="false" color="#003366" textcolor="#003366" bgcolor="#9DD7EF">
+    <panel title="stitch bar" opened="true" color="#003366" textcolor="#003366" bgcolor="#9DD7EF">
     	<![CDATA[
         <div style="position:absolute;top:135px;left:249px;width:359px;height:284px;-adbe-c:c">
     				<font color="white" face="FontName, Century Gothic">Openings Hours</font>
@@ -19,7 +19,7 @@
 					<address><font size="4" color="white">Download menu <a id="Men" name="Men" href="http://stitchbar.com/downloads/stitch_web.pdf" target="_blank">here</a></font></address>
 				</div>
             ]]>
-    
+    </panel>
     
 	<footer color="white" bgcolor="black">
 		<email link="bud.crew@gmail.com"/>
