@@ -3,6 +3,24 @@
 	<style background="black"/>
 	
 	<image location="img/header.png" stretch="true"/>	
+    
+    <panel title="About Us" opened="false" color="#003366" textcolor="#003366" bgcolor="#9DD7EF">
+    	<![CDATA[
+        <div style="position:absolute;top:135px;left:249px;width:359px;height:284px;-adbe-c:c">
+    				<font color="white" face="FontName, Century Gothic">Openings Hours</font>
+					<p><font size="3" color="white" face="FontName, Century Gothic">Monday to Wednesday 4pm - 12am</font></p>
+					<p><font size="3" color="white" face="FontName, Century Gothic">Thurs - Fri 12pm til 2am</font></p>
+					<p><font size="3" color="white" face="FontName, Century Gothic">Saturday 4pm til 2am</font></p>
+					<address></address>
+					<address><font color="white" face="FontName, Century Gothic">61 York St Sydney</font></address>
+					<address></address>
+					<address><font color="#c3ff00" face="FontName, Century Gothic"><a href="mailto:info@stitchbar.com">info@stitchbar.com</a></font></address>
+					<address></address>
+					<address><font size="4" color="white">Download menu <a id="Men" name="Men" href="http://stitchbar.com/downloads/stitch_web.pdf" target="_blank">here</a></font></address>
+				</div>
+            ]]>
+    
+    
 	<footer color="white" bgcolor="black">
 		<email link="bud.crew@gmail.com"/>
 		<phone link="+61292624986"/>
