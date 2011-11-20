@@ -8,6 +8,7 @@ use Rack::Static,
 		"/genesian",
 		"/redoak",
     	"/sinceileftyou",        
+        "/stitchbar",                
 		"/smallbarerskine"
 		], 
 	:root => "public";
