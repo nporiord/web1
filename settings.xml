@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<app title="Teknor">
+    <!-- Color Scheme ID: http://colorschemedesigner.com/#2e21TjPffv5vy    -->
+	<style background="white"/>
+	
+	<image location="img/header.jpg" stretch="true"/>	
+    
+    
+	<footer color="white" bgcolor="black">
+		<email link="niall@teknor.com.au"/>
+		<phone link="+449155603"/>
+		<map link="unit+100+361+kent+street+nsw+2000"/>
+	</footer>
+</app>
