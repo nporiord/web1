@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<app title="stitch">
+	<style background="black"/>
+	
+	<image location="img/header.jpg" stretch="true"/>	
+    
+    
+	<footer color="white" bgcolor="black">
+		<email link="info@stitchbar.com"/>
+		<phone link="+61292790380"/>
+		<map link="61+york+street+nsw+2000"/>
+	</footer>
+</app>
